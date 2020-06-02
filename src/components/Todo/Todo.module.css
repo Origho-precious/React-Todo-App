@@ -1,0 +1,53 @@
+.Todo{
+    background-color: #2E8B57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: all ease 1s;
+}
+
+.Btns{
+    display: flex;
+    justify-content: center;
+}
+
+.Edit{
+    background-color: #3CB371;
+    margin-right: 1rem;
+    padding: 3px 10px;
+}
+
+.Delete{
+    background-color: rgb(231, 53, 53);
+    padding: 3px 10px;
+}
+
+.Completed{
+    background-color: rgb(97, 117, 106);
+    opacity: 0.5;
+}
+
+@media (max-width: 500px){
+    .Todo{
+        display: block;
+        padding: 0.7rem 0 1.5rem;
+        margin-bottom: 1rem;
+        transition: all ease 1s;
+        text-align: center;
+    }
+
+    .Text{
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 10px;
+        margin: 0 1rem 0.8rem;
+    }
+    
+    .Btns{
+        display: flex;
+        justify-content: center;
+    }
+}

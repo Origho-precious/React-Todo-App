@@ -1,0 +1,35 @@
+.Layout{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5rem;
+}
+
+.LayoutDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    margin: 0 auto;
+    transition: all ease 1s;
+}
+
+@media(max-width: 900px){
+    .LayoutDiv{
+        max-width: 70%;
+    }
+
+}
+
+@media(max-width: 700px){
+    .LayoutDiv{
+        max-width: 80%;
+    }
+
+}
+
+@media(max-width: 500px){
+    .LayoutDiv{
+        max-width: 90%;
+    }
+}
+

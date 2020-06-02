@@ -1,0 +1,28 @@
+.Header{
+    text-align: center;
+    font-size: 3rem;
+    font-style: oblique;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+.Date{
+    text-align: center;
+    font-style: oblique;
+    padding: 1rem 0;
+    font-size: 1rem;
+    margin: 0 0 2rem;
+}
+
+@media(max-width: 500px){
+    .Header{
+        font-size: 2rem;
+        font-style: oblique;
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+    
+    .Date{
+        padding: 10px 0;
+    }
+}
